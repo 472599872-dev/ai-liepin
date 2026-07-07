@@ -84,6 +84,32 @@ LiepinRecruitingAgent-update-win64.zip
 update.json
 ```
 
+如果要让 Actions 打包后自动上传到阿里云 OSS，请在仓库配置：
+
+Repository secrets：
+
+```text
+ALIYUN_ACCESS_KEY_ID
+ALIYUN_ACCESS_KEY_SECRET
+```
+
+Repository variables：
+
+```text
+ALIYUN_OSS_BUCKET = liepinaoyi
+ALIYUN_OSS_ENDPOINT = https://oss-cn-beijing.aliyuncs.com
+ALIYUN_OSS_PUBLIC_BASE_URL = https://liepinaoyi.oss-cn-beijing.aliyuncs.com
+```
+
+上传成功后，OSS 会包含：
+
+```text
+update.json
+releases/v版本号/LiepinRecruitingAgent-win64.zip
+releases/v版本号/LiepinRecruitingAgent-update-win64.zip
+releases/v版本号/update.json
+```
+
 如果需要让打包成品自带千问 Key，请在 GitHub 仓库设置里配置：
 
 ```text
