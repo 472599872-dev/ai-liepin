@@ -92,8 +92,11 @@ def main() -> None:
     upload_file(bucket, manifest_path, version_manifest_key)
     upload_file(bucket, manifest_path, latest_manifest_key)
 
-    print("update manifest:")
-    print(manifest_path.read_text(encoding="utf-8"))
+    print("update manifest uploaded:")
+    print(f"version={manifest['version']}")
+    print(f"update_url={manifest['update_url']}")
+    print(f"full_url={manifest['full_url']}")
+    print(f"sha256={manifest['sha256']}")
 
 
 if __name__ == "__main__":
