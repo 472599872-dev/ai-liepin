@@ -63,9 +63,24 @@ jobs:
         shell: pwsh
         run: |
           Set-ExecutionPolicy -Scope Process Bypass
-          .\scripts\build_windows.ps1 -Clean
+          New-Item -ItemType Directory -Force "dist" | Out-Null
+          $logPath = "dist\build-output.log"
+          $exitCode = 0
+          try {
+            .\scripts\build_windows.ps1 -Clean *>&1 | Tee-Object -FilePath $logPath
+            $exitCode = $LASTEXITCODE
+            if ($null -eq $exitCode) { $exitCode = 0 }
+          } catch {
+            $_ | Out-String | Tee-Object -FilePath $logPath -Append
+            $exitCode = 1
+          }
+          if ($exitCode -ne 0) {
+            "BUILD_FAILED=1" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+            Write-Host "Build failed with exit code $exitCode. See build-output.log artifact."
+          }
 
       - name: Generate update manifest
+        if: env.BUILD_FAILED != '1'
         shell: pwsh
         run: |
           $version = "${{ github.ref_name }}"
@@ -97,6 +112,7 @@ jobs:
           Get-Content "dist\update.json"
 
       - name: Upload workflow artifacts
+        if: env.BUILD_FAILED != '1'
         uses: actions/upload-artifact@v4
         with:
           name: LiepinRecruitingAgent-windows-${{ github.run_number }}
@@ -106,8 +122,17 @@ jobs:
             dist/update.json
           if-no-files-found: error
 
+      - name: Upload build diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: LiepinRecruitingAgent-build-log-${{ github.run_number }}
+          path: |
+            dist/build-output.log
+          if-no-files-found: ignore
+
       - name: Publish GitHub release for tags
-        if: startsWith(github.ref, 'refs/tags/')
+        if: startsWith(github.ref, 'refs/tags/') && env.BUILD_FAILED != '1'
         uses: softprops/action-gh-release@v2
         with:
           files: |
@@ -115,3 +140,9 @@ jobs:
             dist/LiepinRecruitingAgent-update-win64.zip
             dist/update.json
           generate_release_notes: true
+
+      - name: Fail workflow when build failed
+        if: env.BUILD_FAILED == '1'
+        shell: pwsh
+        run: |
+          Write-Error "Windows build failed. Download the build log artifact for details."
