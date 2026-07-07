@@ -149,6 +149,16 @@ jobs:
             dist/update.json
           generate_release_notes: true
 
+      - name: Publish build diagnostics release for failed tags
+        if: startsWith(github.ref, 'refs/tags/') && env.BUILD_FAILED == '1'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/build-output.log
+          name: "${{ github.ref_name }} build diagnostics"
+          body: "Windows build failed. Download build-output.log for details."
+          generate_release_notes: false
+
       - name: Fail workflow when build failed
         if: env.BUILD_FAILED == '1'
         shell: pwsh
