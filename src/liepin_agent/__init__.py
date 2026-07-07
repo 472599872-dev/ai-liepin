@@ -1,0 +1,2 @@
+"""Liepin recruiting assistant."""
+

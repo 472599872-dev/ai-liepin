@@ -1,0 +1,6643 @@
+{
+  "created_at": "2026-06-11T18:04:58",
+  "account_id": 3,
+  "job_id": 1,
+  "url": "https://h.liepin.com/search/getConditionItem",
+  "title": "找简历",
+  "duration_ms": 9069,
+  "event_count": 78,
+  "events": [
+    {
+      "t": 1,
+      "type": "doc_bound",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 10,
+      "type": "recorder_started",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "url": "https://h.liepin.com/search/getConditionItem",
+        "title": "找简历",
+        "docCount": 1,
+        "cityModal": {
+          "open": false
+        }
+      }
+    },
+    {
+      "t": 2099,
+      "type": "click",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "span",
+          "id": "",
+          "cls": "",
+          "role": "",
+          "name": "",
+          "placeholder": "",
+          "text": "搜 索",
+          "docUrl": "https://h.liepin.com/search/getConditionItem",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 905,
+            "top": 149,
+            "width": 36,
+            "height": 24
+          }
+        }
+      }
+    },
+    {
+      "t": 2112,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 16,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsLow",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "年",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsHigh",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageLow",
+              "cls": "ant-input ant-input-lg ant-input-status-validating age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "岁",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageHigh",
+              "cls": "ant-input ant-input-lg ant-input-status-validating age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryLow",
+              "cls": "ant-input ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "万",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryHigh",
+              "cls": "ant-input ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 2116,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 16,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsLow",
+              "cls": "ant-input ant-input-disabled ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "年",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsHigh",
+              "cls": "ant-input ant-input-disabled ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageLow",
+              "cls": "ant-input ant-input-lg age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "岁",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageHigh",
+              "cls": "ant-input ant-input-lg age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryLow",
+              "cls": "ant-input ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "万",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryHigh",
+              "cls": "ant-input ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 2122,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 3,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 2131,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 10,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-prepare ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-prepare ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 2147,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 2149,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-active ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 2179,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 798,
+                "top": 153,
+                "width": 83,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 798,
+                "top": 153,
+                "width": 83,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 2347,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 2497,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3098,
+      "type": "click",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "span",
+          "id": "",
+          "cls": "",
+          "role": "",
+          "name": "",
+          "placeholder": "",
+          "text": "知道了",
+          "docUrl": "https://h.liepin.com/search/getConditionItem",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 480,
+            "top": 191,
+            "width": 36,
+            "height": 18
+          }
+        }
+      }
+    },
+    {
+      "t": 3106,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3116,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "[ant-click-animating-without-extra-node='true']::after, .ant-click-animating-node { --antd-wave-shadow-color: rgb(51, 148, 211); }",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3119,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 4,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3146,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-active ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3150,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3347,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-root",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 835,
+                "width": 980,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3351,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 5,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索!知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索!知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3364,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3833,
+      "type": "click",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "span",
+          "id": "",
+          "cls": "",
+          "role": "",
+          "name": "",
+          "placeholder": "",
+          "text": "搜 索",
+          "docUrl": "https://h.liepin.com/search/getConditionItem",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 905,
+            "top": 149,
+            "width": 36,
+            "height": 24
+          }
+        }
+      }
+    },
+    {
+      "t": 3843,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 16,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsLow",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "年",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsHigh",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageLow",
+              "cls": "ant-input ant-input-lg ant-input-status-validating age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "岁",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageHigh",
+              "cls": "ant-input ant-input-lg ant-input-status-validating age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryLow",
+              "cls": "ant-input ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "万",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryHigh",
+              "cls": "ant-input ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3849,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 16,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsLow",
+              "cls": "ant-input ant-input-disabled ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "年",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsHigh",
+              "cls": "ant-input ant-input-disabled ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageLow",
+              "cls": "ant-input ant-input-lg age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "岁",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageHigh",
+              "cls": "ant-input ant-input-lg age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryLow",
+              "cls": "ant-input ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "万",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryHigh",
+              "cls": "ant-input ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3853,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "[ant-click-animating-without-extra-node='true']::after, .ant-click-animating-node { --antd-wave-shadow-color: rgb(48, 145, 208); }",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3858,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 10,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-prepare ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-prepare ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3879,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3881,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-active ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 3913,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 781,
+                "top": 146,
+                "width": 83,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 781,
+                "top": 146,
+                "width": 83,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 4079,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 4213,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 4693,
+      "type": "click",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "span",
+          "id": "",
+          "cls": "",
+          "role": "",
+          "name": "",
+          "placeholder": "",
+          "text": "知道了",
+          "docUrl": "https://h.liepin.com/search/getConditionItem",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 480,
+            "top": 191,
+            "width": 36,
+            "height": 18
+          }
+        }
+      }
+    },
+    {
+      "t": 4701,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 4709,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "[ant-click-animating-without-extra-node='true']::after, .ant-click-animating-node { --antd-wave-shadow-color: rgb(54, 153, 215); }",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 4711,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 4,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 4729,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-active ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 4731,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 4929,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-root",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 835,
+                "width": 980,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 4933,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 5,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索!知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索!知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 4947,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 5648,
+      "type": "click",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "button",
+          "id": "",
+          "cls": "ant-btn ant-btn-primary search-btn",
+          "role": "",
+          "name": "",
+          "placeholder": "",
+          "text": "搜 索",
+          "docUrl": "https://h.liepin.com/search/getConditionItem",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 874,
+            "top": 140,
+            "width": 98,
+            "height": 42
+          }
+        }
+      }
+    },
+    {
+      "t": 5659,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 16,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsLow",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "年",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsHigh",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageLow",
+              "cls": "ant-input ant-input-lg ant-input-status-validating age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "岁",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageHigh",
+              "cls": "ant-input ant-input-lg ant-input-status-validating age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryLow",
+              "cls": "ant-input ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "万",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryHigh",
+              "cls": "ant-input ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 5667,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 16,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsLow",
+              "cls": "ant-input ant-input-disabled ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "年",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsHigh",
+              "cls": "ant-input ant-input-disabled ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageLow",
+              "cls": "ant-input ant-input-lg age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "岁",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageHigh",
+              "cls": "ant-input ant-input-lg age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryLow",
+              "cls": "ant-input ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "万",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryHigh",
+              "cls": "ant-input ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 5676,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "[ant-click-animating-without-extra-node='true']::after, .ant-click-animating-node { --antd-wave-shadow-color: rgb(51, 148, 211); }",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 5688,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 10,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-prepare ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-prepare ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 5696,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 5698,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-active ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 5730,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 818,
+                "top": 154,
+                "width": 83,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 818,
+                "top": 154,
+                "width": 83,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 5896,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 6030,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 6714,
+      "type": "click",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "span",
+          "id": "",
+          "cls": "",
+          "role": "",
+          "name": "",
+          "placeholder": "",
+          "text": "知道了",
+          "docUrl": "https://h.liepin.com/search/getConditionItem",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 480,
+            "top": 191,
+            "width": 36,
+            "height": 18
+          }
+        }
+      }
+    },
+    {
+      "t": 6718,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 6731,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "[ant-click-animating-without-extra-node='true']::after, .ant-click-animating-node { --antd-wave-shadow-color: rgb(38, 133, 198); }",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 6733,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 4,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 6763,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-active ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 6765,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 6962,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-root",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 835,
+                "width": 980,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 6966,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 5,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索!知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索!知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 6980,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 7370,
+      "type": "click",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "button",
+          "id": "",
+          "cls": "ant-btn ant-btn-primary search-btn",
+          "role": "",
+          "name": "",
+          "placeholder": "",
+          "text": "搜 索",
+          "docUrl": "https://h.liepin.com/search/getConditionItem",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 874,
+            "top": 140,
+            "width": 98,
+            "height": 42
+          }
+        }
+      }
+    },
+    {
+      "t": 7375,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 16,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsLow",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "年",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsHigh",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageLow",
+              "cls": "ant-input ant-input-lg ant-input-status-validating age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "岁",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageHigh",
+              "cls": "ant-input ant-input-lg ant-input-status-validating age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryLow",
+              "cls": "ant-input ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "万",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryHigh",
+              "cls": "ant-input ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 7378,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 16,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsLow",
+              "cls": "ant-input ant-input-disabled ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "年",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsHigh",
+              "cls": "ant-input ant-input-disabled ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageLow",
+              "cls": "ant-input ant-input-lg age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "岁",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageHigh",
+              "cls": "ant-input ant-input-lg age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 608,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryLow",
+              "cls": "ant-input ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "万",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryHigh",
+              "cls": "ant-input ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 717,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 7382,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "[ant-click-animating-without-extra-node='true']::after, .ant-click-animating-node { --antd-wave-shadow-color: rgb(53, 151, 214); }",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 7390,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 10,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-prepare ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-prepare ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 7413,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 7414,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-appear ant-fade-appear-active ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 7446,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 813,
+                "top": 157,
+                "width": 83,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-appear ant-zoom-appear-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 813,
+                "top": 157,
+                "width": 83,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 7613,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 7747,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 8156,
+      "type": "click",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "span",
+          "id": "",
+          "cls": "",
+          "role": "",
+          "name": "",
+          "placeholder": "",
+          "text": "知道了",
+          "docUrl": "https://h.liepin.com/search/getConditionItem",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 480,
+            "top": 191,
+            "width": 36,
+            "height": 18
+          }
+        }
+      }
+    },
+    {
+      "t": 8161,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 8165,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "[ant-click-animating-without-extra-node='true']::after, .ant-click-animating-node { --antd-wave-shadow-color: rgb(53, 151, 214); }",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 8167,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 4,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-start ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-start ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 8196,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-mask ant-fade-leave ant-fade-leave-active ant-fade",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 995,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 8199,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning ant-zoom-leave ant-zoom-leave-active ant-zoom",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 290,
+                "top": 100,
+                "width": 416,
+                "height": 162
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 8397,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal-root",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索! 知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 835,
+                "width": 980,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 8400,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 5,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索!知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-modal ant-modal-confirm ant-modal-confirm-warning",
+              "role": "dialog",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入搜索条件后再搜索!知道了",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "body",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含全部关键词 搜职位/公司/行业等（中文用空格隔开，英文用逗号隔开） 搜 索 职位名称： 搜索职位 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 980,
+                "height": 508
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "head",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": ".anticon { display: inline-flex; alignItems: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-alig",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    },
+    {
+      "t": 8414,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem"
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+name: Build Windows Packages
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version name, for example v0.1.12. Empty means manual run number."
+        required: false
+        type: string
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows:
+    name: Build Windows executable and update package
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          architecture: "x64"
+          cache: "pip"
+
+      - name: Create .env from repository secrets
+        shell: pwsh
+        run: |
+          $lines = New-Object System.Collections.Generic.List[string]
+          if ("${{ secrets.QWEN_API_KEY }}") {
+            $lines.Add("QWEN_API_KEY=${{ secrets.QWEN_API_KEY }}")
+          }
+          if ("${{ vars.QWEN_BASE_URL }}") {
+            $lines.Add("QWEN_BASE_URL=${{ vars.QWEN_BASE_URL }}")
+          }
+          if ("${{ vars.QWEN_MODEL }}") {
+            $lines.Add("QWEN_MODEL=${{ vars.QWEN_MODEL }}")
+          }
+          if ("${{ secrets.OPENAI_API_KEY }}") {
+            $lines.Add("OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}")
+          }
+          if ("${{ vars.OPENAI_BASE_URL }}") {
+            $lines.Add("OPENAI_BASE_URL=${{ vars.OPENAI_BASE_URL }}")
+          }
+          if ("${{ vars.OPENAI_MODEL }}") {
+            $lines.Add("OPENAI_MODEL=${{ vars.OPENAI_MODEL }}")
+          }
+          if ($lines.Count -gt 0) {
+            $lines | Set-Content -Encoding UTF8 ".env"
+            Write-Host "Created .env for packaged application."
+          } else {
+            Write-Host "No model secrets configured. Package will not include .env."
+          }
+
+      - name: Build packages
+        shell: pwsh
+        run: |
+          Set-ExecutionPolicy -Scope Process Bypass
+          .\scripts\build_windows.ps1 -Clean
+
+      - name: Generate update manifest
+        shell: pwsh
+        run: |
+          $version = "${{ github.ref_name }}"
+          if ("${{ github.event_name }}" -eq "workflow_dispatch" -and "${{ inputs.version }}") {
+            $version = "${{ inputs.version }}"
+          }
+          if (-not $version -or $version -eq "main") {
+            $version = "manual-${{ github.run_number }}"
+          }
+
+          $updateZip = "dist\LiepinRecruitingAgent-update-win64.zip"
+          $fullZip = "dist\LiepinRecruitingAgent-win64.zip"
+          $updateHash = (Get-FileHash $updateZip -Algorithm SHA256).Hash.ToLower()
+          $fullHash = (Get-FileHash $fullZip -Algorithm SHA256).Hash.ToLower()
+
+          $releaseBase = "https://github.com/${{ github.repository }}/releases/download/$version"
+          $manifest = [ordered]@{
+            version = $version
+            channel = "stable"
+            published_at = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+            update_url = "$releaseBase/LiepinRecruitingAgent-update-win64.zip"
+            full_url = "$releaseBase/LiepinRecruitingAgent-win64.zip"
+            sha256 = $updateHash
+            full_sha256 = $fullHash
+            notes = "Windows 自动构建包"
+            force = $false
+          }
+          $manifest | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 "dist\update.json"
+          Get-Content "dist\update.json"
+
+      - name: Upload workflow artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: LiepinRecruitingAgent-windows-${{ github.run_number }}
+          path: |
+            dist/LiepinRecruitingAgent-win64.zip
+            dist/LiepinRecruitingAgent-update-win64.zip
+            dist/update.json
+          if-no-files-found: error
+
+      - name: Publish GitHub release for tags
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/LiepinRecruitingAgent-win64.zip
+            dist/LiepinRecruitingAgent-update-win64.zip
+            dist/update.json
+          generate_release_notes: true

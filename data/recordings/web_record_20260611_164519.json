@@ -1,0 +1,6014 @@
+{
+  "created_at": "2026-06-11T16:45:19",
+  "account_id": 3,
+  "job_id": 1,
+  "url": "https://h.liepin.com/search/getConditionItem#session",
+  "title": "找简历",
+  "duration_ms": 12874,
+  "event_count": 50,
+  "events": [
+    {
+      "t": 0,
+      "type": "doc_bound",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 11,
+      "type": "recorder_started",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "url": "https://h.liepin.com/search/getConditionItem#session",
+        "title": "找简历",
+        "docCount": 1,
+        "cityModal": {
+          "open": false
+        }
+      }
+    },
+    {
+      "t": 2572,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "dd",
+              "id": "",
+              "cls": "_40231gLU1o _40231lnNku",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 934,
+                "top": 547,
+                "width": 40,
+                "height": 40
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 4259,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "rc_select_12",
+              "cls": "ant-select-selection-search-input",
+              "role": "combobox",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 128,
+                "top": 150,
+                "width": 314,
+                "height": 30
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "aria-expanded"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select ant-select-lg ant-select-auto-complete ant-select-single ant-select-open ant-select-show-search",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 149,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 4267,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": -1011,
+                "top": -1368,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": -1011,
+                "top": -1368,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 4282,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 38,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 4287,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 4290,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 4295,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select ant-select-lg ant-select-auto-complete ant-select-focused ant-select-single ant-select-open ant-select-show-s",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 149,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 4313,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 134
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-enter ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 134
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 4514,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 4519,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 12,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学 同济大学浙江学院 同济大学同科学院 上海同济大学 上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 168
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 4554,
+      "type": "click",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "div",
+          "id": "",
+          "cls": "search-item sfilter-school-box",
+          "role": "",
+          "name": "",
+          "placeholder": "",
+          "text": "毕业院校：",
+          "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 32,
+            "top": 143,
+            "width": 458,
+            "height": 44
+          }
+        }
+      }
+    },
+    {
+      "t": 4984,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 3,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "rc_select_12_list",
+              "cls": "",
+              "role": "listbox",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学同科学院",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 189,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-item ant-select-item-option",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 189,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-item ant-select-item-option ant-select-item-option-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学浙江学院",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 221,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 5207,
+      "type": "keydown",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "key": "Backspace",
+        "code": "Backspace",
+        "target": {
+          "tag": "input",
+          "id": "rc_select_12",
+          "cls": "ant-select-selection-search-input",
+          "role": "combobox",
+          "name": "",
+          "placeholder": "",
+          "text": "",
+          "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 128,
+            "top": 150,
+            "width": 314,
+            "height": 30
+          }
+        }
+      }
+    },
+    {
+      "t": 5211,
+      "type": "input",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "input",
+          "id": "rc_select_12",
+          "cls": "ant-select-selection-search-input",
+          "role": "combobox",
+          "name": "",
+          "placeholder": "",
+          "text": "",
+          "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 128,
+            "top": 150,
+            "width": 314,
+            "height": 30
+          }
+        },
+        "value": ""
+      }
+    },
+    {
+      "t": 5240,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 29,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "rc_select_12",
+              "cls": "ant-select-selection-search-input",
+              "role": "combobox",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 128,
+                "top": 150,
+                "width": 314,
+                "height": 30
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "value"
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-selector",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入学校名称",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 149,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "span",
+              "id": "",
+              "cls": "highlight-keyword",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 128,
+                "top": 198,
+                "width": 48,
+                "height": 14
+              }
+            },
+            "added": 1,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "span",
+              "id": "",
+              "cls": "highlight-keyword",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学浙江学院",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 128,
+                "top": 230,
+                "width": 96,
+                "height": 14
+              }
+            },
+            "added": 1,
+            "removed": 2,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "span",
+              "id": "",
+              "cls": "highlight-keyword",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同科学院",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 128,
+                "top": 262,
+                "width": 96,
+                "height": 14
+              }
+            },
+            "added": 1,
+            "removed": 2,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "span",
+              "id": "",
+              "cls": "highlight-keyword",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "上海同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 128,
+                "top": 294,
+                "width": 72,
+                "height": 14
+              }
+            },
+            "added": 1,
+            "removed": 2,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "span",
+              "id": "",
+              "cls": "highlight-keyword",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "上海市同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 128,
+                "top": 326,
+                "width": 84,
+                "height": 14
+              }
+            },
+            "added": 1,
+            "removed": 2,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-wrapper",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年 30天内活跃 仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师 机械工程 仿真工程师 深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 277,
+                "width": 578,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年 30天内活跃 仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师 机械工程 仿真工程师 深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 277,
+                "width": 578,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-wrapper",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年 30天内活跃 仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师 机械工程 仿真工程师 深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 277,
+                "width": 578,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 277,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 277,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 5244,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 3,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "rc_select_12_list",
+              "cls": "",
+              "role": "listbox",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学同科学院",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 189,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "rc_select_12_list",
+              "cls": "",
+              "role": "listbox",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院 同济大学同科学院",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 189,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-item ant-select-item-option ant-select-item-option-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学浙江学院",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 221,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 5364,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 3,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "rc_select_12_list",
+              "cls": "",
+              "role": "listbox",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学浙江学院",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 189,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-item ant-select-item-option ant-select-item-option-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 189,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-item ant-select-item-option",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学浙江学院",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 221,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 5638,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 4,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "rc-virtual-list-holder-inner",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 189,
+                "width": 338,
+                "height": 64
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "rc-virtual-list-holder-inner",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 189,
+                "width": 338,
+                "height": 64
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "rc-virtual-list-holder-inner",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 189,
+                "width": 338,
+                "height": 64
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "span",
+              "id": "",
+              "cls": "highlight-keyword",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 128,
+                "top": 230,
+                "width": 84,
+                "height": 14
+              }
+            },
+            "added": 1,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 5644,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "rc_select_12_list",
+              "cls": "",
+              "role": "listbox",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 189,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-item ant-select-item-option",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 189,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 5648,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 12,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 185,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 5740,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 25,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 277,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 277,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 218,
+                "top": 277,
+                "width": 128,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "机械工程",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 358,
+                "top": 277,
+                "width": 80,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 450,
+                "top": 277,
+                "width": 92,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 554,
+                "top": 277,
+                "width": 56,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 277,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 277,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 277,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 277,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 218,
+                "top": 277,
+                "width": 128,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "机械工程",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 358,
+                "top": 277,
+                "width": 80,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 7222,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 6,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select ant-select-lg ant-select-auto-complete ant-select-focused ant-select-single ant-select-show-search",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入学校名称",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 389,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "rc_select_12",
+              "cls": "ant-select-selection-search-input",
+              "role": "combobox",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 128,
+                "top": 390,
+                "width": 314,
+                "height": 30
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "aria-expanded"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select ant-select-lg ant-select-auto-complete ant-select-focused ant-select-single ant-select-show-search",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入学校名称",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 389,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 7228,
+      "type": "change",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "input",
+          "id": "rc_select_12",
+          "cls": "ant-select-selection-search-input",
+          "role": "combobox",
+          "name": "",
+          "placeholder": "",
+          "text": "",
+          "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 128,
+            "top": 390,
+            "width": 314,
+            "height": 30
+          }
+        },
+        "value": ""
+      }
+    },
+    {
+      "t": 7240,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 37,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-slide-up-leave ant-slide-u",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学 同济大学 大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 425,
+                "width": 338,
+                "height": 72
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 7246,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select ant-select-lg ant-select-auto-complete ant-select-single ant-select-show-search",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入学校名称",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 389,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select ant-select-lg ant-select-auto-complete ant-select-single ant-select-show-search",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "请输入学校名称",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 389,
+                "width": 338,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 7262,
+      "type": "click",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "div",
+          "id": "",
+          "cls": "",
+          "role": "",
+          "name": "",
+          "placeholder": "",
+          "text": "语 言： 不限普通话英语日语法语粤语其他 期望年薪： 目前年薪： 期望行业： 不限 期望职位： 不限 毕业院校： 请输入学校名称 专业名称： 其 他： 求职状态（不限） 简历语言（不限） 海外工作经验 管理经验",
+          "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 32,
+            "top": 247,
+            "width": 1136,
+            "height": 224
+          }
+        }
+      }
+    },
+    {
+      "t": 7448,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 7452,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 7457,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 24,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 7462,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 24,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-select-dropdown simple-auto-select-dropdown ant-select-dropdown-placement-bottomLeft  ant-select-dropdown-hidden",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "同济大学同济大学大连外国语大学",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 7805,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "dd",
+              "id": "",
+              "cls": "_40231gLU1o _40231lnNku _40231R0yUZ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 8417,
+      "type": "click",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "target": {
+          "tag": "button",
+          "id": "",
+          "cls": "ant-btn ant-btn-primary search-btn",
+          "role": "",
+          "name": "",
+          "placeholder": "",
+          "text": "搜 索",
+          "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+          "docTitle": "找简历",
+          "rect": {
+            "left": 874,
+            "top": 20,
+            "width": 98,
+            "height": 42
+          }
+        }
+      }
+    },
+    {
+      "t": 8427,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 16,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsLow",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "年",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsHigh",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageLow",
+              "cls": "ant-input ant-input-lg ant-input-status-validating age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "岁",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 488,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 488,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageHigh",
+              "cls": "ant-input ant-input-lg ant-input-status-validating age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 488,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 488,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryLow",
+              "cls": "ant-input ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "万",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 597,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 597,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryHigh",
+              "cls": "ant-input ant-input-lg ant-input-status-validating interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 597,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-is-validating",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 597,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 8432,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 16,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsLow",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-success interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "年",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-has-success",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "workYearsHigh",
+              "cls": "ant-input ant-input-disabled ant-input-lg ant-input-status-success interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-has-success",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageLow",
+              "cls": "ant-input ant-input-lg ant-input-status-success age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "岁",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 488,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-has-success",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 115,
+                "top": 488,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "ageHigh",
+              "cls": "ant-input ant-input-lg ant-input-status-success age-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 488,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error ant-form-item-has-success",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 214,
+                "top": 488,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryLow",
+              "cls": "ant-input ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "万",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 597,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 116,
+                "top": 597,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "input",
+              "id": "wantSalaryHigh",
+              "cls": "ant-input ant-input-lg interval-input",
+              "role": "",
+              "name": "",
+              "placeholder": "不限",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 597,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-form-item custom-explain-error",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 215,
+                "top": 597,
+                "width": 72,
+                "height": 32
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 8476,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 22,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年 30天内活跃 仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师 机械工程 仿真工程师 深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 817,
+                "width": 578,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-wrapper",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年 30天内活跃 仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师 机械工程 仿真工程师 深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 817,
+                "width": 578,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 817,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 817,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 218,
+                "top": 817,
+                "width": 128,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "机械工程",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 358,
+                "top": 817,
+                "width": 80,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 450,
+                "top": 817,
+                "width": 92,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 554,
+                "top": 817,
+                "width": 56,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年 30天内活跃 仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师 机械工程 仿真工程师 深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 817,
+                "width": 578,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 817,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 817,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 218,
+                "top": 817,
+                "width": 128,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 8483,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "[ant-click-animating-without-extra-node='true']::after, .ant-click-animating-node { --antd-wave-shadow-color: rgb(49, 149, 213); }",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 8488,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-spin-nested-loading",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "包含任意关键词 搜 索 职位名称： 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械工程师（杰克科技股份有限公司 | 台州 | 10k-15k） 快捷搜索： 机械 退订 清空筛选条件 目前城市： 不限 深圳上海北京广州杭州天津成都南京 其他 期望城市： 不限 深圳太原南京北京上海台州浙江江苏 其他 工作年限： ",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 4,
+                "width": 986,
+                "height": 857
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-spin-container ant-spin-blur",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "包含任意关键词 搜 索 职位名称： 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械工程师（杰克科技股份有限公司 | 台州 | 10k-15k） 快捷搜索： 机械 退订 清空筛选条件 目前城市： 不限 深圳上海北京广州杭州天津成都南京 其他 期望城市： 不限 深圳太原南京北京上海台州浙江江苏 其他 工作年限： ",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 4,
+                "width": 986,
+                "height": 857
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 8491,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-spin-nested-loading",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "全选 批量查看 隐藏已查看 隐藏已沟通 隐藏已获取联系方式 共0位人选 智能排序 没有找到符合条件的简历，建议您重新搜索!",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 869,
+                "width": 986,
+                "height": 410
+              }
+            },
+            "added": 1,
+            "removed": 0,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-spin-container ant-spin-blur",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "全选 批量查看 隐藏已查看 隐藏已沟通 隐藏已获取联系方式 共0位人选 智能排序 没有找到符合条件的简历，建议您重新搜索!",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 869,
+                "width": 986,
+                "height": 410
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 8939,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 25,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 817,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 817,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 218,
+                "top": 817,
+                "width": 128,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "机械工程",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 358,
+                "top": 817,
+                "width": 80,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 450,
+                "top": 817,
+                "width": 92,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 554,
+                "top": 817,
+                "width": 56,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 817,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 817,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 817,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 817,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 218,
+                "top": 817,
+                "width": 128,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "机械工程",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 358,
+                "top": 817,
+                "width": 80,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 9174,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 21,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年 30天内活跃 仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师 机械工程 仿真工程师 深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 577,
+                "width": 578,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-wrapper",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年 30天内活跃 仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师 机械工程 仿真工程师 深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 577,
+                "width": 578,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 577,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 577,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 218,
+                "top": 577,
+                "width": 128,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "机械工程",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 358,
+                "top": 577,
+                "width": 80,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 450,
+                "top": 577,
+                "width": 92,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 554,
+                "top": 577,
+                "width": 56,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年 30天内活跃 仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师 机械工程 仿真工程师 深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 577,
+                "width": 578,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 577,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 577,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 218,
+                "top": 577,
+                "width": 128,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 9184,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-spin-nested-loading",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "包含任意关键词 搜 索 职位名称： 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械工程师（杰克科技股份有限公司 | 台州 | 10k-15k） 快捷搜索： 机械 退订 清空筛选条件 目前城市： 不限 深圳上海北京广州杭州天津成都南京 其他 期望城市： 不限 深圳太原南京北京上海台州浙江江苏 其他 工作年限： ",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": -296,
+                "width": 986,
+                "height": 857
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-spin-container",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "包含任意关键词 搜 索 职位名称： 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械工程师（杰克科技股份有限公司 | 台州 | 10k-15k） 快捷搜索： 机械 退订 清空筛选条件 目前城市： 不限 深圳上海北京广州杭州天津成都南京 其他 期望城市： 不限 深圳太原南京北京上海台州浙江江苏 其他 工作年限： ",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": -296,
+                "width": 986,
+                "height": 857
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 9188,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-spin-nested-loading",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "全选 批量查看 隐藏已查看 隐藏已沟通 隐藏已获取联系方式 共0位人选 智能排序 没有找到符合条件的简历，建议您重新搜索!",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 569,
+                "width": 986,
+                "height": 410
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "ant-spin-container",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "全选 批量查看 隐藏已查看 隐藏已沟通 隐藏已获取联系方式 共0位人选 智能排序 没有找到符合条件的简历，建议您重新搜索!",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 569,
+                "width": 986,
+                "height": 410
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 9271,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "dd",
+              "id": "",
+              "cls": "_40231gLU1o _40231lnNku",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 934,
+                "top": 547,
+                "width": 40,
+                "height": 40
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 9368,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 2,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "nprogress",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": -416,
+                "width": 1200,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "nprogress",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": -416,
+                "width": 1200,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "style"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 9569,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 3,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "html",
+              "id": "",
+              "cls": " ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "首页 沟通 2 找人 职位 猎头服务 1 每日任务 牛李鑫 你好，牛李鑫 我的主页 个人中心 安全中心 账户资源 用户规则 通话管理 安全退出 找简历 人才管理 包含任意关键词 搜 索 职位名称： 全部 公司名称： 搜索公司 全部 正在发布的职位： 机械工程师（杰克科技股份有限公司 | 台州 | 10k-15k） 快捷",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": -600,
+                "width": 986,
+                "height": 539
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "resume-search-nprogress-loading",
+              "cls": "wrap",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": -475,
+                "width": 1200,
+                "height": 2
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "childList",
+            "target": {
+              "tag": "div",
+              "id": "resume-search-nprogress-loading",
+              "cls": "wrap",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": -475,
+                "width": 1200,
+                "height": 2
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 9655,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 25,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 157,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 157,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 218,
+                "top": 157,
+                "width": 128,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "机械工程",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 358,
+                "top": 157,
+                "width": 80,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 450,
+                "top": 157,
+                "width": 92,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "深圳",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 554,
+                "top": 157,
+                "width": 56,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 157,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 157,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-active",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "5-10年",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 32,
+                "top": 157,
+                "width": 69,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide swiper-slide-next",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "30天内活跃",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 113,
+                "top": 157,
+                "width": 93,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "仿真工程师 数字孪生工程师 生产优化工程师 排程算法工程师",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 218,
+                "top": 157,
+                "width": 128,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          },
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "div",
+              "id": "",
+              "cls": "swiper-slide",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "机械工程",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 358,
+                "top": 157,
+                "width": 80,
+                "height": 24
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 10521,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "childList",
+            "target": {
+              "tag": "style",
+              "id": "",
+              "cls": "",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 1,
+            "attr": ""
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    },
+    {
+      "t": 10754,
+      "type": "mutation",
+      "url": "https://h.liepin.com/search/getConditionItem#session",
+      "title": "找简历",
+      "cityModal": {
+        "open": false
+      },
+      "payload": {
+        "count": 1,
+        "summary": [
+          {
+            "type": "attributes",
+            "target": {
+              "tag": "dd",
+              "id": "",
+              "cls": "_40231gLU1o _40231lnNku _40231R0yUZ",
+              "role": "",
+              "name": "",
+              "placeholder": "",
+              "text": "",
+              "docUrl": "https://h.liepin.com/search/getConditionItem#session",
+              "docTitle": "找简历",
+              "rect": {
+                "left": 0,
+                "top": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "added": 0,
+            "removed": 0,
+            "attr": "class"
+          }
+        ],
+        "docTitle": "找简历",
+        "docUrl": "https://h.liepin.com/search/getConditionItem#session"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+job:
+  title: "高级 Java 后端工程师"
+  jd: |
+    负责核心交易系统后端研发，要求 Java 基础扎实，熟悉 Spring Boot、MySQL、Redis、消息队列。
+    有高并发、分布式系统、金融或电商交易系统经验优先。
+    希望候选人 5 年以上后端开发经验，具备良好的工程质量意识和团队协作能力。
+  must_have:
+    - Java
+    - Spring Boot
+    - MySQL
+    - Redis
+  nice_to_have:
+    - 高并发
+    - 分布式
+    - 消息队列
+    - 金融
+    - 电商
+  reject_keywords:
+    - 实习
+    - 应届
+  min_score: 75
+
+search:
+  url: "https://h.liepin.com/search/getConditionItem"
+  keywords:
+    - Java
+    - Spring Boot
+  city: "上海"
+  experience: "5-10年"
+  education: "本科"
+  max_candidates: 20
+
+greeting:
+  custom_message: ""
+  tone: "专业、真诚、简洁"
+
+browser:
+  headless: false
+  slow_mo_ms: 80
+  storage_state_path: "playwright/.auth/liepin.json"
+  selectors:
+    username_input: ""
+    password_input: ""
+    login_button: ""
+    keyword_input: "input"
+    search_button: "button"
+    candidate_cards: "[data-candidate-id], .candidate-card, .resume-card, .user-card"
+    candidate_link: "a"
+    resume_text: "body"
+    greet_button: "text=打招呼"
+    greeting_textarea: "textarea"
+    send_button: "text=发送"
+
