@@ -18,8 +18,13 @@ if (-not (Test-Path "$ProjectRoot\.env")) {
     Write-Warning "未找到 .env。打包仍会继续，但成品不会自带千问/OpenAI API Key。"
 }
 
+$PyLauncher = Get-Command py -ErrorAction SilentlyContinue
 if (-not (Test-Path "$ProjectRoot\.venv-win")) {
-    py -3.11 -m venv "$ProjectRoot\.venv-win"
+    if ($PyLauncher) {
+        & $PyLauncher.Source -3.11 -m venv "$ProjectRoot\.venv-win"
+    } else {
+        & python -m venv "$ProjectRoot\.venv-win"
+    }
 }
 
 $Python = "$ProjectRoot\.venv-win\Scripts\python.exe"
