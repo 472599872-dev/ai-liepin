@@ -94,3 +94,41 @@ def test_task_result_filter_flags_are_persisted(tmp_path) -> None:
     assert row["hide_viewed"] == 0
     assert row["hide_contacted"] == 0
     assert row["hide_contact_info"] == 1
+
+
+def test_delete_account_soft_deletes_and_keeps_history(tmp_path) -> None:
+    db = Database(tmp_path / "app.db")
+    db.init()
+
+    account_id = db.add_account("账号A", "user@example.com")
+    db.update_account(account_id, "账号A", "user@example.com", "secret")
+    job_id = db.add_job("岗位A", "JD", [], [], [], [])
+    task_id = db.add_task("搜索任务", job_id, account_id)
+    candidate_id = db.upsert_candidate(
+        {
+            "job_id": job_id,
+            "source_account_id": account_id,
+            "source_task_id": task_id,
+            "name": "张**",
+            "profile_url": "https://h.liepin.com/resume/showresumedetail/?x=2",
+        }
+    )
+
+    counts = db.account_reference_counts(account_id)
+    assert counts["任务"] == 1
+    assert counts["候选人"] == 1
+
+    db.delete_account(account_id)
+
+    account = db.fetch_one("SELECT * FROM accounts WHERE id = ?", (account_id,))
+    task = db.fetch_one("SELECT * FROM tasks WHERE id = ?", (task_id,))
+    candidate = db.fetch_one("SELECT * FROM candidates WHERE id = ?", (candidate_id,))
+
+    assert account is not None
+    assert account["deleted_at"]
+    assert account["enabled"] == 0
+    assert account["username"] == ""
+    assert account["password"] == ""
+    assert task is not None
+    assert candidate is not None
+    assert candidate["source_account_id"] == account_id

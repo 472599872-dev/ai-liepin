@@ -6,6 +6,7 @@ import os
 import queue
 import random
 import re
+import subprocess
 import sys
 import threading
 from datetime import datetime
@@ -176,6 +177,15 @@ def _unique_download_name(directory: Path, filename: str) -> str:
             return next_name
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
     return f"{stem}-{timestamp}{suffix}"
+
+
+def _open_local_path(path: Path) -> None:
+    if sys.platform == "win32":
+        os.startfile(str(path))  # type: ignore[attr-defined]
+    elif sys.platform == "darwin":
+        subprocess.Popen(["open", str(path)])
+    else:
+        subprocess.Popen(["xdg-open", str(path)])
 
 
 def _single_work_year_value(value: Any) -> str:
@@ -1037,6 +1047,7 @@ def build_app() -> int:
     result = QTextEdit()
     result.setReadOnly(True)
     mode_status_label = None
+    download_ui: dict[str, Any] = {"records": [], "active": 0, "latest_completed_path": None}
 
     def append_log(lines: list[str]) -> None:
         if not lines:
@@ -1046,6 +1057,99 @@ def build_app() -> int:
 
     def message(text: str) -> None:
         QMessageBox.information(window, "猎聘招聘智能体", text)
+
+    def refresh_download_notice() -> None:
+        label = download_ui.get("label")
+        list_btn = download_ui.get("list_btn")
+        clear_btn = download_ui.get("clear_btn")
+        if label is None:
+            return
+        records = list(download_ui.get("records") or [])
+        if not records:
+            label.setVisible(False)
+            if list_btn is not None:
+                list_btn.setVisible(False)
+            if clear_btn is not None:
+                clear_btn.setVisible(False)
+            return
+        active = int(download_ui.get("active") or 0)
+        completed = sum(1 for item in records if item.get("status") == "completed")
+        failed = sum(1 for item in records if item.get("status") in {"cancelled", "interrupted", "failed"})
+        latest = records[-1]
+        latest_name = str(latest.get("filename") or "-")
+        latest_status = str(latest.get("label") or latest.get("status") or "-")
+        parts = [f"下载 {completed} 完成"]
+        if active:
+            parts.append(f"{active} 进行中")
+        if failed:
+            parts.append(f"{failed} 未完成")
+        label.setText(f"{'，'.join(parts)} · 最近：{latest_name}（{latest_status}）")
+        label.setVisible(True)
+        color = "#0066cc"
+        if active:
+            color = "#0066cc"
+        elif failed and not completed:
+            color = "#b3261e"
+        elif failed:
+            color = "#b26a00"
+        elif completed:
+            color = "#188038"
+        label.setStyleSheet(f"color: {color}; font-weight: 600;")
+        label.setToolTip(str(latest.get("path") or ""))
+        if list_btn is not None:
+            list_btn.setVisible(True)
+        if clear_btn is not None:
+            clear_btn.setVisible(True)
+
+    def clear_download_notice() -> None:
+        for key in ("label", "list_btn", "clear_btn"):
+            widget = download_ui.get(key)
+            if widget is not None:
+                widget.setVisible(False)
+
+    def add_download_record(
+        download_id: int,
+        *,
+        account_name: str,
+        filename: str,
+        target_path: Path,
+        url: str,
+    ) -> None:
+        records = list(download_ui.get("records") or [])
+        records.append(
+            {
+                "id": download_id,
+                "account": account_name,
+                "filename": filename,
+                "path": str(target_path),
+                "url": url or "",
+                "status": "downloading",
+                "label": "下载中",
+                "reason": "",
+                "created_at": datetime.now().strftime("%H:%M:%S"),
+                "finished_at": "",
+            }
+        )
+        download_ui["records"] = records[-50:]
+        download_ui["active"] = int(download_ui.get("active") or 0) + 1
+        refresh_download_notice()
+
+    def update_download_record(download_id: int, *, status: str, label: str, reason: str = "") -> None:
+        records = list(download_ui.get("records") or [])
+        for item in reversed(records):
+            if item.get("id") == download_id:
+                was_active = item.get("status") == "downloading"
+                item["status"] = status
+                item["label"] = label
+                item["reason"] = reason or ""
+                item["finished_at"] = datetime.now().strftime("%H:%M:%S")
+                if status == "completed":
+                    download_ui["latest_completed_path"] = item.get("path")
+                if was_active:
+                    download_ui["active"] = max(0, int(download_ui.get("active") or 0) - 1)
+                break
+        download_ui["records"] = records
+        refresh_download_notice()
 
     class MultiSelectField(QWidget):
         def __init__(
@@ -1193,7 +1297,7 @@ def build_app() -> int:
         candidates_table.blockSignals(False)
 
     def refresh_accounts() -> None:
-        rows = db.fetch_all("SELECT * FROM accounts ORDER BY id DESC")
+        rows = db.fetch_all("SELECT * FROM accounts WHERE deleted_at IS NULL ORDER BY id DESC")
         set_rows(
             accounts_table,
             [[r["id"], r["name"], r["username"], r["status"], r["profile_dir"], "是" if r["enabled"] else "否"] for r in rows],
@@ -1922,6 +2026,13 @@ def build_app() -> int:
 
         download_id = id(download)
         state.active_downloads[download_id] = download
+        add_download_record(
+            download_id,
+            account_name=account_name,
+            filename=filename,
+            target_path=target_path,
+            url=url or "",
+        )
         append_log(
             [
                 "浏览器下载已开始",
@@ -1944,6 +2055,12 @@ def build_app() -> int:
             reason = call_text("interruptReasonString")
             level = "info" if "completed" in state_text else "warning"
             message_text = "浏览器下载完成" if "completed" in state_text else "浏览器下载未完成"
+            if "completed" in state_text:
+                update_download_record(download_id, status="completed", label="完成", reason=reason or "")
+            elif "cancelled" in state_text:
+                update_download_record(download_id, status="cancelled", label="已取消", reason=reason or "")
+            else:
+                update_download_record(download_id, status="interrupted", label="中断", reason=reason or "")
             append_log(
                 [
                     message_text,
@@ -1972,6 +2089,7 @@ def build_app() -> int:
         except Exception as exc:
             state.active_downloads.pop(download_id, None)
             append_log(["下载请求接受失败", f"账号：{account_name}", f"文件：{target_path}", f"原因：{exc}"])
+            update_download_record(download_id, status="failed", label="失败", reason=str(exc))
             db.log(
                 "下载请求接受失败",
                 account_id=account_id,
@@ -1985,6 +2103,8 @@ def build_app() -> int:
         row = db.fetch_one("SELECT * FROM accounts WHERE id = ?", (account_id,))
         if not row:
             raise ValueError("账号不存在。")
+        if row["deleted_at"]:
+            raise ValueError("账号已删除，不能继续使用。")
         profile_dir = Path(row["profile_dir"]).resolve()
         profile_dir.mkdir(parents=True, exist_ok=True)
         profile = state.profiles.get(account_id)
@@ -2213,10 +2333,12 @@ def build_app() -> int:
     save_account_btn = QPushButton("编辑账号")
     use_account_btn = QPushButton("使用选中账号")
     login_account_btn = QPushButton("打开登录/找人页")
+    delete_account_btn = QPushButton("删除账号")
     account_buttons.addWidget(add_account_btn)
     account_buttons.addWidget(save_account_btn)
     account_buttons.addWidget(use_account_btn)
     account_buttons.addWidget(login_account_btn)
+    account_buttons.addWidget(delete_account_btn)
     account_layout.addLayout(account_buttons)
     account_layout.addWidget(accounts_table)
     tabs.addTab(account_tab, "账号")
@@ -2285,7 +2407,7 @@ def build_app() -> int:
             message("请先选择要保存的账号。")
             return
         row = db.fetch_one("SELECT * FROM accounts WHERE id = ?", (int(account_id),))
-        if not row:
+        if not row or row["deleted_at"]:
             message("账号不存在。")
             return
         values = open_account_dialog({"name": row["name"] or "", "username": row["username"] or "", "password": row["password"] or ""})
@@ -2296,13 +2418,58 @@ def build_app() -> int:
         refresh_all()
         append_log(["账号已保存", f"账号：{values['name']}", f"登录名：{values['username']}", "密码：已保存到本机应用数据库（表格不展示）"])
 
+    def delete_account() -> None:
+        account_id = selected_id(accounts_table)
+        if not account_id:
+            message("请先选择要删除的账号。")
+            return
+        row = db.fetch_one("SELECT * FROM accounts WHERE id = ?", (int(account_id),))
+        if not row or row["deleted_at"]:
+            message("账号不存在。")
+            return
+        counts = db.account_reference_counts(int(account_id))
+        references = "，".join(f"{name}{count}" for name, count in counts.items() if count)
+        detail = references or "没有历史引用"
+        ok = QMessageBox.question(
+            window,
+            "删除账号",
+            f"确定删除账号“{row['name']}”吗？\n\n"
+            "删除后该账号会从账号列表和任务新建下拉框中移除，登录名/密码会清空；"
+            "历史任务、候选人和沟通记录会保留。\n\n"
+            f"当前引用：{detail}",
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
+            QMessageBox.StandardButton.No,
+        )
+        if ok != QMessageBox.StandardButton.Yes:
+            return
+        db.delete_account(int(account_id))
+        db.log(f"删除账号：{row['name']}", account_id=int(account_id))
+        if state.current_account_id == int(account_id):
+            web.reset_tabs()
+            state.current_account_id = None
+            state.profile = None
+            state.page = None
+        state.profiles.pop(int(account_id), None)
+        account_name.clear()
+        account_username.clear()
+        account_password.clear()
+        refresh_all()
+        append_log(
+            [
+                "账号已删除",
+                f"账号：{row['name']}",
+                "登录名/密码已清空；历史任务、候选人、沟通记录保留。",
+                f"历史引用：{detail}",
+            ]
+        )
+
     def auto_login_account(account_id: int | None) -> None:
         if not account_id:
             message("请先选择账号。")
             return
         load_account_form(int(account_id))
         row = db.fetch_one("SELECT * FROM accounts WHERE id = ?", (account_id,))
-        if not row:
+        if not row or row["deleted_at"]:
             message("账号不存在。")
             return
         if not row["username"] or not row["password"]:
@@ -2318,6 +2485,7 @@ def build_app() -> int:
     save_account_btn.clicked.connect(save_account)
     use_account_btn.clicked.connect(lambda: use_account(selected_id(accounts_table)))
     login_account_btn.clicked.connect(lambda: auto_login_account(selected_id(accounts_table) or account_combo.currentData()))
+    delete_account_btn.clicked.connect(delete_account)
     accounts_table.cellClicked.connect(lambda row, _col: auto_login_account(int(accounts_table.item(row, 0).text())))
     accounts_table.cellDoubleClicked.connect(lambda _row, _col: save_account())
 
@@ -8107,10 +8275,110 @@ def build_app() -> int:
     update_btn.setVisible(False)
     update_btn.setToolTip("下载并安装最新版本")
     mode_layout.addWidget(update_btn)
+    download_notice_label = QLabel("")
+    download_notice_label.setVisible(False)
+    mode_layout.addWidget(download_notice_label)
+    download_list_btn = QPushButton("下载列表")
+    download_list_btn.setVisible(False)
+    download_list_btn.setToolTip("查看最近下载记录")
+    mode_layout.addWidget(download_list_btn)
+    download_clear_btn = QPushButton("隐藏")
+    download_clear_btn.setVisible(False)
+    mode_layout.addWidget(download_clear_btn)
     mode_layout.addStretch(1)
     debug_btn = QPushButton("调试")
     mode_layout.addWidget(debug_btn)
     debug_btn.clicked.connect(debug_dialog.show)
+    download_ui.update(
+        {
+            "label": download_notice_label,
+            "list_btn": download_list_btn,
+            "clear_btn": download_clear_btn,
+        }
+    )
+
+    def open_download_record_file(record: dict[str, Any] | None) -> None:
+        if not record:
+            message("请先选择一条下载记录。")
+            return
+        target = Path(str(record.get("path") or ""))
+        if not target.exists():
+            message(f"文件不存在：\n{target}")
+            return
+        try:
+            _open_local_path(target)
+        except OSError as exc:
+            message(f"打开文件失败：{exc}")
+
+    def reveal_download_record(record: dict[str, Any] | None) -> None:
+        if not record:
+            message("请先选择一条下载记录。")
+            return
+        target = Path(str(record.get("path") or ""))
+        try:
+            if target.exists():
+                reveal_in_file_manager(target)
+            elif target.parent.exists():
+                _open_local_path(target.parent)
+            else:
+                message(f"下载目录不存在：\n{target.parent}")
+        except OSError as exc:
+            message(f"打开下载位置失败：{exc}")
+
+    def show_download_center() -> None:
+        records = list(download_ui.get("records") or [])
+        if not records:
+            message("还没有下载记录。")
+            return
+        dialog = QDialog(window)
+        dialog.setWindowTitle("下载列表")
+        dialog.resize(860, 420)
+        layout = QVBoxLayout(dialog)
+        table_widget = QTableWidget()
+        table_widget.setColumnCount(6)
+        table_widget.setHorizontalHeaderLabels(["时间", "文件", "账号", "状态", "原因", "路径"])
+        table_widget.setSelectionBehavior(QTableWidget.SelectRows)
+        table_widget.setEditTriggers(QTableWidget.NoEditTriggers)
+        visible_records = list(reversed(records))
+        table_widget.setRowCount(len(visible_records))
+        for row_index, record in enumerate(visible_records):
+            values = [
+                record.get("finished_at") or record.get("created_at") or "",
+                record.get("filename") or "",
+                record.get("account") or "",
+                record.get("label") or record.get("status") or "",
+                record.get("reason") or "",
+                record.get("path") or "",
+            ]
+            for col_index, value in enumerate(values):
+                table_widget.setItem(row_index, col_index, QTableWidgetItem(str(value)))
+        table_widget.resizeColumnsToContents()
+        layout.addWidget(table_widget)
+        button_row = QHBoxLayout()
+        open_file_btn = QPushButton("打开文件")
+        open_folder_btn = QPushButton("打开位置")
+        close_btn = QPushButton("关闭")
+        button_row.addWidget(open_file_btn)
+        button_row.addWidget(open_folder_btn)
+        button_row.addStretch(1)
+        button_row.addWidget(close_btn)
+        layout.addLayout(button_row)
+
+        def selected_record() -> dict[str, Any] | None:
+            row = table_widget.currentRow()
+            if row < 0 or row >= len(visible_records):
+                return None
+            return visible_records[row]
+
+        open_file_btn.clicked.connect(lambda: open_download_record_file(selected_record()))
+        open_folder_btn.clicked.connect(lambda: reveal_download_record(selected_record()))
+        close_btn.clicked.connect(dialog.accept)
+        if visible_records:
+            table_widget.selectRow(0)
+        dialog.exec()
+
+    download_list_btn.clicked.connect(show_download_center)
+    download_clear_btn.clicked.connect(clear_download_notice)
 
     update_state: dict[str, Any] = {
         "checking": False,

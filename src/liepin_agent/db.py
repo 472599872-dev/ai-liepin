@@ -40,6 +40,7 @@ class Database:
                 daily_search_limit INTEGER NOT NULL DEFAULT 100,
                 daily_greeting_limit INTEGER NOT NULL DEFAULT 30,
                 last_used_at TEXT,
+                deleted_at TEXT,
                 created_at TEXT NOT NULL DEFAULT (datetime('now')),
                 updated_at TEXT NOT NULL DEFAULT (datetime('now'))
             );
@@ -203,6 +204,7 @@ class Database:
         )
         self.conn.commit()
         self.ensure_column("accounts", "password", "TEXT DEFAULT ''")
+        self.ensure_column("accounts", "deleted_at", "TEXT")
         self.ensure_column("jobs", "search_conditions", "TEXT NOT NULL DEFAULT '{}'")
         self.ensure_column("jobs", "followup_template", "TEXT DEFAULT ''")
         self.ensure_column("tasks", "greet_min_score", "INTEGER")
@@ -295,10 +297,37 @@ class Database:
         self.execute(
             """
             UPDATE accounts
-            SET name = ?, username = ?, password = ?, updated_at = datetime('now')
+            SET name = ?, username = ?, password = ?, enabled = 1, status = CASE WHEN status = 'deleted' THEN 'needs_login' ELSE status END,
+                deleted_at = NULL, updated_at = datetime('now')
             WHERE id = ?
             """,
             (name, username, password, account_id),
+        )
+
+    def account_reference_counts(self, account_id: int) -> dict[str, int]:
+        specs = {
+            "任务": ("tasks", "account_id"),
+            "候选人": ("candidates", "source_account_id"),
+            "简历快照": ("resume_snapshots", "account_id"),
+            "沟通记录": ("greeting_logs", "account_id"),
+            "执行日志": ("execution_logs", "account_id"),
+            "提醒": ("alerts", "account_id"),
+        }
+        counts: dict[str, int] = {}
+        for label, (table, column) in specs.items():
+            row = self.fetch_one(f"SELECT COUNT(*) AS count FROM {table} WHERE {column} = ?", (account_id,))
+            counts[label] = int(row["count"] if row else 0)
+        return counts
+
+    def delete_account(self, account_id: int) -> None:
+        self.execute(
+            """
+            UPDATE accounts
+            SET username = '', password = '', enabled = 0, status = 'deleted',
+                deleted_at = datetime('now'), updated_at = datetime('now')
+            WHERE id = ?
+            """,
+            (account_id,),
         )
 
     def normalize_account_profiles(self) -> None:
