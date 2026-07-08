@@ -49,6 +49,15 @@ from liepin_agent.task_workflow import (
     decide_page_turn_result,
     decide_resume_validation,
 )
+from liepin_agent.updater import (
+    DEFAULT_UPDATE_MANIFEST_URL,
+    auto_install_supported,
+    check_for_update,
+    download_update_package,
+    launch_external_installer,
+    reveal_in_file_manager,
+)
+from liepin_agent.version import APP_VERSION
 
 
 TASK_CONDITION_STEP_DELAY_MS = 2000
@@ -8018,10 +8027,159 @@ def build_app() -> int:
     mode_layout.addWidget(QLabel("状态"))
     mode_status_label = QLabel("空闲")
     mode_layout.addWidget(mode_status_label)
+    mode_layout.addSpacing(12)
+    version_label = QLabel(f"版本 {APP_VERSION}")
+    mode_layout.addWidget(version_label)
+    update_notice_label = QLabel("")
+    update_notice_label.setVisible(False)
+    mode_layout.addWidget(update_notice_label)
+    update_btn = QPushButton("更新")
+    update_btn.setVisible(False)
+    update_btn.setToolTip("下载并安装最新版本")
+    mode_layout.addWidget(update_btn)
     mode_layout.addStretch(1)
     debug_btn = QPushButton("调试")
     mode_layout.addWidget(debug_btn)
     debug_btn.clicked.connect(debug_dialog.show)
+
+    update_state: dict[str, Any] = {
+        "checking": False,
+        "downloading": False,
+        "manifest": None,
+    }
+
+    def set_update_idle() -> None:
+        update_btn.setEnabled(True)
+        if update_state.get("manifest"):
+            update_btn.setVisible(True)
+
+    def check_updates(manual: bool = False) -> None:
+        if update_state["checking"]:
+            return
+        update_state["checking"] = True
+        if manual:
+            update_notice_label.setText("检查更新中")
+            update_notice_label.setVisible(True)
+            update_btn.setVisible(False)
+        result_queue: queue.Queue[tuple[str, Any]] = queue.Queue()
+
+        def worker() -> None:
+            try:
+                result_queue.put(("ok", check_for_update(APP_VERSION, DEFAULT_UPDATE_MANIFEST_URL)))
+            except Exception as exc:  # noqa: BLE001 - surface update failures in log only
+                result_queue.put(("error", str(exc)))
+
+        threading.Thread(target=worker, daemon=True).start()
+
+        def poll() -> None:
+            try:
+                status, payload = result_queue.get_nowait()
+            except queue.Empty:
+                QTimer.singleShot(150, poll)
+                return
+            update_state["checking"] = False
+            if status == "error":
+                update_notice_label.setVisible(False if not update_state.get("manifest") else True)
+                append_log(["检查更新失败", str(payload)])
+                if manual:
+                    message(f"检查更新失败：{payload}")
+                return
+            result_payload = payload
+            manifest = result_payload.manifest
+            if result_payload.update_available and manifest:
+                update_state["manifest"] = manifest
+                update_notice_label.setText(f"有新版本 {manifest.version}")
+                update_notice_label.setVisible(True)
+                update_btn.setVisible(True)
+                update_btn.setEnabled(True)
+                append_log(
+                    [
+                        "发现新版本",
+                        f"当前版本：{APP_VERSION}",
+                        f"最新版本：{manifest.version}",
+                        f"更新包：{manifest.update_url}",
+                    ]
+                )
+                return
+            update_state["manifest"] = None
+            update_notice_label.setVisible(False)
+            update_btn.setVisible(False)
+            append_log(["检查更新完成", f"当前版本：{APP_VERSION}", result_payload.reason])
+            if manual:
+                message("当前已是最新版本。")
+
+        QTimer.singleShot(150, poll)
+
+    def start_update_install() -> None:
+        manifest = update_state.get("manifest")
+        if not manifest or update_state["downloading"]:
+            return
+        detail_lines = [
+            f"当前版本：{APP_VERSION}",
+            f"最新版本：{manifest.version}",
+        ]
+        if manifest.notes:
+            detail_lines.extend(["", "更新说明：", manifest.notes])
+        detail_lines.extend(["", "点击“是”后会下载更新包；在 Windows 成品环境中，下载完成后应用会退出并自动重启。"])
+        ok = QMessageBox.question(
+            window,
+            "发现新版本",
+            "\n".join(detail_lines),
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
+        )
+        if ok != QMessageBox.StandardButton.Yes:
+            return
+        update_state["downloading"] = True
+        update_btn.setEnabled(False)
+        update_notice_label.setText(f"下载 {manifest.version} 中")
+        result_queue: queue.Queue[tuple[str, Any]] = queue.Queue()
+
+        def worker() -> None:
+            try:
+                package_path = download_update_package(manifest)
+                if auto_install_supported():
+                    script_path = launch_external_installer(package_path, manifest)
+                    result_queue.put(("installing", {"package": package_path, "script": script_path}))
+                else:
+                    result_queue.put(("downloaded", package_path))
+            except Exception as exc:  # noqa: BLE001 - show actionable update failure
+                result_queue.put(("error", str(exc)))
+
+        threading.Thread(target=worker, daemon=True).start()
+
+        def poll() -> None:
+            try:
+                status, payload = result_queue.get_nowait()
+            except queue.Empty:
+                QTimer.singleShot(200, poll)
+                return
+            update_state["downloading"] = False
+            if status == "error":
+                update_notice_label.setText(f"有新版本 {manifest.version}")
+                set_update_idle()
+                append_log(["更新失败", str(payload)])
+                message(f"更新失败：{payload}")
+                return
+            if status == "downloaded":
+                set_update_idle()
+                append_log(["更新包已下载", f"路径：{payload}"])
+                message(f"更新包已下载：\n{payload}\n\n当前不是 Windows 成品运行环境，请手动解压覆盖旧目录。")
+                reveal_in_file_manager(payload)
+                return
+            append_log(
+                [
+                    "更新安装器已启动",
+                    f"版本：{manifest.version}",
+                    f"更新包：{payload['package']}",
+                    f"脚本：{payload['script']}",
+                ]
+            )
+            update_notice_label.setText("正在重启更新")
+            QTimer.singleShot(500, app.quit)
+
+        QTimer.singleShot(200, poll)
+
+    update_btn.clicked.connect(start_update_install)
 
     root.addWidget(tabs)
     root.addWidget(browser_panel)
@@ -8057,6 +8215,7 @@ def build_app() -> int:
         open_search_page()
 
     QTimer.singleShot(0, startup_open)
+    QTimer.singleShot(5000, lambda: check_updates(False))
     return app.exec()
 
 

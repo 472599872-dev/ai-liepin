@@ -9,6 +9,14 @@ $ErrorActionPreference = "Stop"
 $ProjectRoot = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 Set-Location $ProjectRoot
 
+$PackageVersion = $env:RELEASE_VERSION
+if (-not $PackageVersion) {
+    $PackageVersion = $env:GITHUB_REF_NAME
+}
+if (-not $PackageVersion -or $PackageVersion -eq "main") {
+    $PackageVersion = "dev"
+}
+
 if ($Clean) {
     Remove-Item -Recurse -Force -ErrorAction SilentlyContinue "$ProjectRoot\build"
     Remove-Item -Recurse -Force -ErrorAction SilentlyContinue "$ProjectRoot\dist"
@@ -38,6 +46,7 @@ $Python = "$ProjectRoot\.venv-win\Scripts\python.exe"
 $AppDir = "$ProjectRoot\dist\LiepinRecruitingAgent"
 New-Item -ItemType Directory -Force "$AppDir\data\recordings" | Out-Null
 New-Item -ItemType Directory -Force "$AppDir\profiles\app" | Out-Null
+Set-Content -Encoding UTF8 "$AppDir\VERSION" $PackageVersion
 
 if (Test-Path "$ProjectRoot\.env") {
     Copy-Item "$ProjectRoot\.env" "$AppDir\.env" -Force
@@ -77,6 +86,7 @@ if (-not $NoZip) {
     New-Item -ItemType Directory -Force $UpdateDir | Out-Null
 
     Copy-Item "$AppDir\LiepinRecruitingAgent.exe" "$UpdateDir\LiepinRecruitingAgent.exe" -Force
+    Copy-Item "$AppDir\VERSION" "$UpdateDir\VERSION" -Force
     if (Test-Path "$AppDir\_internal") {
         Copy-Item "$AppDir\_internal" "$UpdateDir\_internal" -Recurse -Force
     }

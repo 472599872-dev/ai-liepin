@@ -62,6 +62,14 @@ jobs:
       - name: Build packages
         shell: pwsh
         run: |
+          $buildVersion = "${{ github.ref_name }}"
+          if ("${{ github.event_name }}" -eq "workflow_dispatch" -and "${{ inputs.version }}") {
+            $buildVersion = "${{ inputs.version }}"
+          }
+          if (-not $buildVersion -or $buildVersion -eq "main") {
+            $buildVersion = "manual-${{ github.run_number }}"
+          }
+          $env:RELEASE_VERSION = $buildVersion
           Set-ExecutionPolicy -Scope Process Bypass
           $tempLogPath = Join-Path $env:RUNNER_TEMP "build-output.log"
           $tempErrPath = Join-Path $env:RUNNER_TEMP "build-error.log"

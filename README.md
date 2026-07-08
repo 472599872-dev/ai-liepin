@@ -165,6 +165,8 @@ LiepinRecruitingAgent.exe
 dist\LiepinRecruitingAgent-update-win64.zip
 ```
 
+应用启动后会后台检查 OSS 上的 `update.json`。如果发现新版本，顶部状态栏的版本号后会出现“有新版本”和“更新”按钮；点击后会下载更新包、校验 SHA256，并在 Windows 成品环境中自动退出、覆盖程序文件、重启应用。
+
 更新方式：
 
 1. 关闭正在运行的 `LiepinRecruitingAgent.exe`。
