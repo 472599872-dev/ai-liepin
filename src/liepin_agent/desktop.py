@@ -157,6 +157,27 @@ def _unique_preserve(items: list[str], limit: int = 50) -> list[str]:
     return values
 
 
+def _safe_download_filename(filename: str, fallback: str = "download") -> str:
+    value = re.sub(r"[\\/:*?\"<>|\r\n\t]+", "_", str(filename or "").strip())
+    value = re.sub(r"\s+", " ", value).strip(" .")
+    return value or fallback
+
+
+def _unique_download_name(directory: Path, filename: str) -> str:
+    safe_name = _safe_download_filename(filename)
+    candidate = directory / safe_name
+    if not candidate.exists():
+        return safe_name
+    stem = candidate.stem or "download"
+    suffix = candidate.suffix
+    for index in range(1, 1000):
+        next_name = f"{stem} ({index}){suffix}"
+        if not (directory / next_name).exists():
+            return next_name
+    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    return f"{stem}-{timestamp}{suffix}"
+
+
 def _single_work_year_value(value: Any) -> str:
     if isinstance(value, str):
         items = _csv(value)
@@ -667,6 +688,7 @@ class DesktopState:
         self.current_list_page_index: int = 1
         self.current_page_card_count: int = 0
         self.cancelled_task_ids: set[int] = set()
+        self.active_downloads: dict[int, Any] = {}
 
 
 def build_app() -> int:
@@ -1893,6 +1915,105 @@ def build_app() -> int:
 
         page_adapter.switch_password_login(handle_switch)
 
+    def handle_profile_download(download: Any, account_id: int) -> None:
+        account_row = db.fetch_one("SELECT name FROM accounts WHERE id = ?", (account_id,))
+        account_name = str(account_row["name"] if account_row else account_id)
+        download_dir = Path.cwd() / "data" / "downloads" / f"account_{account_id}"
+        download_dir.mkdir(parents=True, exist_ok=True)
+
+        def call_text(method_name: str) -> str:
+            method = getattr(download, method_name, None)
+            if not callable(method):
+                return ""
+            try:
+                return str(method() or "")
+            except Exception:
+                return ""
+
+        url = call_text("url")
+        if hasattr(download, "url"):
+            try:
+                url_value = download.url()
+                if hasattr(url_value, "toString"):
+                    url = url_value.toString()
+            except Exception:
+                pass
+        filename = (
+            call_text("downloadFileName")
+            or call_text("suggestedFileName")
+            or Path(url.split("?", 1)[0]).name
+            or "liepin-resume"
+        )
+        filename = _unique_download_name(download_dir, filename)
+        target_path = download_dir / filename
+
+        try:
+            if hasattr(download, "setDownloadDirectory"):
+                download.setDownloadDirectory(str(download_dir))
+            if hasattr(download, "setDownloadFileName"):
+                download.setDownloadFileName(filename)
+        except Exception as exc:
+            append_log(["下载路径设置失败", f"账号：{account_name}", f"原因：{exc}"])
+
+        download_id = id(download)
+        state.active_downloads[download_id] = download
+        append_log(
+            [
+                "浏览器下载已开始",
+                f"账号：{account_name}",
+                f"文件：{target_path}",
+                f"来源：{url or '-'}",
+            ]
+        )
+        db.log(
+            "浏览器下载已开始",
+            account_id=account_id,
+            payload={"path": str(target_path), "url": url or "", "file": filename},
+        )
+
+        def on_state_changed(download_state: Any) -> None:
+            state_name = str(getattr(download_state, "name", download_state))
+            state_text = state_name.lower()
+            if not any(token in state_text for token in ("completed", "cancelled", "interrupted")):
+                return
+            reason = call_text("interruptReasonString")
+            level = "info" if "completed" in state_text else "warning"
+            message_text = "浏览器下载完成" if "completed" in state_text else "浏览器下载未完成"
+            append_log(
+                [
+                    message_text,
+                    f"账号：{account_name}",
+                    f"状态：{state_name}",
+                    f"文件：{target_path}",
+                    f"原因：{reason or '-'}",
+                ]
+            )
+            db.log(
+                message_text,
+                account_id=account_id,
+                level=level,
+                payload={"state": state_name, "path": str(target_path), "reason": reason or "", "url": url or ""},
+            )
+            state.active_downloads.pop(download_id, None)
+
+        try:
+            if hasattr(download, "stateChanged"):
+                download.stateChanged.connect(on_state_changed)
+        except Exception as exc:
+            append_log(["下载状态监听失败", f"账号：{account_name}", f"原因：{exc}"])
+
+        try:
+            download.accept()
+        except Exception as exc:
+            state.active_downloads.pop(download_id, None)
+            append_log(["下载请求接受失败", f"账号：{account_name}", f"文件：{target_path}", f"原因：{exc}"])
+            db.log(
+                "下载请求接受失败",
+                account_id=account_id,
+                level="error",
+                payload={"path": str(target_path), "url": url or "", "error": str(exc)},
+            )
+
     def ensure_account_profile(account_id: int | None) -> tuple[Any, Any, bool]:
         if not account_id:
             raise ValueError("请先选择账号。")
@@ -1920,6 +2041,8 @@ def build_app() -> int:
                 "AppleWebKit/537.36 (KHTML, like Gecko) "
                 "Chrome/125.0.0.0 Safari/537.36"
             )
+            if hasattr(profile, "downloadRequested"):
+                profile.downloadRequested.connect(lambda download, aid=account_id: handle_profile_download(download, int(aid)))
             state.profiles[account_id] = profile
         return profile, row, profile_reused
 
