@@ -52,7 +52,7 @@ class SearchConditionDraft(BaseModel):
     current_position: list[str] = Field(default_factory=list)
     age_min: Optional[int] = Field(default=None, ge=0)
     age_max: Optional[int] = Field(default=None, ge=0)
-    active_days: str = "30天内活跃"
+    active_days: str = "不限"
     gender: str = "不限"
     job_hopping: str = "跳槽频率（不限）"
     languages: list[str] = Field(default_factory=list)
@@ -125,19 +125,19 @@ def normalize_draft(draft: SearchConditionDraft) -> SearchConditionDraft:
     data["company_keywords"] = _unique(data["company_keywords"], 8)
     data["current_city"] = _unique(data["current_city"], 8)
     data["expected_city"] = _unique(data["expected_city"], 8)
-    data["work_years"] = _keep_allowed(data["work_years"], WORK_YEAR_OPTIONS, ["3-5年", "5-10年"])
-    data["education"] = _keep_allowed(data["education"], EDUCATION_OPTIONS, ["本科"])
+    data["work_years"] = _keep_allowed(data["work_years"], WORK_YEAR_OPTIONS)
+    data["education"] = _keep_allowed(data["education"], EDUCATION_OPTIONS)
     data["recruit_type"] = _allowed_value(data["recruit_type"], RECRUIT_TYPE_OPTIONS, "统招/非统招（不限）")
     data["school_tags"] = _keep_allowed(data["school_tags"], SCHOOL_TAG_OPTIONS)
     data["age_min"] = _coerce_age(data.get("age_min"))
     data["age_max"] = _coerce_age(data.get("age_max"))
     if data["age_min"] and data["age_max"] and data["age_min"] > data["age_max"]:
         data["age_min"], data["age_max"] = data["age_max"], data["age_min"]
-    data["active_days"] = _allowed_value(data["active_days"], ACTIVE_OPTIONS, "30天内活跃")
+    data["active_days"] = _allowed_value(data["active_days"], ACTIVE_OPTIONS, "不限")
     data["gender"] = _allowed_value(data["gender"], GENDER_OPTIONS, "不限")
     data["job_hopping"] = _allowed_value(data["job_hopping"], JOB_HOPPING_OPTIONS, "跳槽频率（不限）")
     data["languages"] = _keep_allowed(data["languages"], LANGUAGE_OPTIONS)
-    data["job_status"] = _keep_allowed(data["job_status"], JOB_STATUS_OPTIONS, ["在职，看看新机会", "在职，急寻新工作"])
+    data["job_status"] = _keep_allowed(data["job_status"], JOB_STATUS_OPTIONS)
     data["resume_language"] = _allowed_value(data["resume_language"], RESUME_LANGUAGE_OPTIONS, "简历语言（不限）")
     for key in ["current_industry", "current_position", "expected_industry", "expected_position", "schools", "majors"]:
         data[key] = _unique(data[key], 10)
@@ -192,7 +192,7 @@ def _active_days_from_value(value: Any) -> str:
     try:
         days = int(value)
     except (TypeError, ValueError):
-        return "30天内活跃"
+        return "不限"
     if days <= 1:
         return "今天活跃"
     if days <= 3:
@@ -306,20 +306,20 @@ def _coerce_raw(raw: dict[str, Any]) -> dict[str, Any]:
 def _output_template() -> dict[str, Any]:
     return {
         "keyword_match": "包含任意关键词",
-        "keywords": ["数字孪生", "工业仿真"],
-        "position_keywords": ["仿真工程师"],
+        "keywords": [],
+        "position_keywords": [],
         "company_keywords": [],
         "current_city": [],
         "expected_city": [],
-        "work_years": ["3-5年", "5-10年"],
-        "education": ["本科"],
+        "work_years": [],
+        "education": [],
         "recruit_type": "统招/非统招（不限）",
         "school_tags": [],
-        "current_industry": ["智能制造"],
-        "current_position": ["仿真工程师"],
+        "current_industry": [],
+        "current_position": [],
         "age_min": None,
         "age_max": None,
-        "active_days": "30天内活跃",
+        "active_days": "不限",
         "gender": "不限",
         "job_hopping": "跳槽频率（不限）",
         "languages": [],
@@ -329,14 +329,14 @@ def _output_template() -> dict[str, Any]:
         "expected_position": [],
         "schools": [],
         "majors": [],
-        "job_status": ["在职，看看新机会", "在职，急寻新工作"],
+        "job_status": [],
         "resume_language": "简历语言（不限）",
         "overseas_work": False,
         "management_experience": False,
         "must_have": [],
         "nice_to_have": [],
         "exclude_keywords": [],
-        "search_groups": [{"name": "仿真工具组", "keywords": ["仿真", "Omniverse"], "positions": ["仿真工程师"], "industries": ["智能制造"], "reason": "示例"}],
+        "search_groups": [],
         "low_confidence_notes": [],
         "reasoning": [],
         "confidence": {"keywords": 0.9, "position": 0.8, "industry": 0.6, "city": 0.2, "seniority": 0.7},
@@ -359,8 +359,9 @@ def parse_jd_with_qwen(title: str, jd: str, env: EnvSettings) -> ParseResult:
                 "只输出 JSON，不要 Markdown。",
                 "必须使用 output_template 里的字段名，不能改字段名。",
                 "下拉/标签字段只能使用 liepin_schema 中已有选项。",
-                "城市、行业、职位、学校、专业可以根据 JD 推断，但不确定时留空并写 low_confidence_notes。",
-                "关键词要适合猎聘找人页搜索，不要过长；优先保留岗位硬技能、业务场景、工具、算法方向。",
+                "只能基于用户提供的 job_title 和 jd 提取搜索条件；不要套用示例、历史岗位或固定行业默认值。",
+                "城市、行业、职位、学校、专业不确定时必须留空并写 low_confidence_notes。",
+                "关键词要来自 JD 或岗位名称中的硬技能、业务场景、工具、算法方向，不要凭空补充。",
                 "搜索条件宁可略宽，后续简历评分再严格。",
                 "search_groups 给 2-4 组可分批搜索的策略，每组包含 name、keywords、positions、industries、reason。",
             ],
@@ -388,8 +389,6 @@ def parse_jd_with_qwen(title: str, jd: str, env: EnvSettings) -> ParseResult:
             raw = {"keywords": raw.get("keywords", []), "must_have": raw.get("must_have", []), "nice_to_have": raw.get("nice_to_have", [])}
             draft = SearchConditionDraft.model_validate(raw)
         draft = normalize_draft(draft)
-        if not draft.keywords:
-            return ParseResult(build_rule_based_draft(title, jd), source="rule", error="千问返回缺少 keywords，已回退本地规则")
         return ParseResult(draft, source="qwen")
     except Exception as exc:
         return ParseResult(build_rule_based_draft(title, jd), source="rule", error=str(exc))
@@ -397,43 +396,32 @@ def parse_jd_with_qwen(title: str, jd: str, env: EnvSettings) -> ParseResult:
 
 def build_rule_based_draft(title: str, jd: str) -> SearchConditionDraft:
     text = f"{title}\n{jd}"
-    keyword_pool = [
-        "数字孪生",
-        "工业仿真",
-        "仿真建模",
-        "生产排程",
-        "排产",
-        "流程优化",
-        "Unreal Engine",
-        "Omniverse",
-        "Isaac Sim",
-        "Python",
-        "机器学习",
-        "智能调度",
-        "离散事件仿真",
-        "运筹优化",
-        "APS",
-        "MES",
-        "智能工厂",
-        "服装制造",
-    ]
-    keywords = [item for item in keyword_pool if item.lower() in text.lower()] or keyword_pool[:8]
-    must_have = [item for item in ["数字孪生", "工业仿真", "生产排程", "Python", "机器学习"] if item.lower() in text.lower()]
-    nice_to_have = [item for item in ["Unreal Engine", "Omniverse", "Isaac Sim", "强化学习", "APS", "MES"] if item.lower() in text.lower()]
+    english_terms = re.findall(r"\b[A-Za-z][A-Za-z0-9+#.\-/]{1,30}\b", text)
+    chinese_terms: list[str] = []
+    for value in re.split(r"[\s,，、。；;：:\n\r（）()]+", text):
+        value = value.strip()
+        value = re.sub(r"^(?:负责|参与|使用|熟悉|了解|掌握|具备|要求|优先|包括|进行|完成|根据|结合)", "", value).strip()
+        if len(value) < 2 or re.fullmatch(r"\d+", value):
+            continue
+        if any(stop in value for stop in ("岗位", "职责", "要求", "优先", "负责", "参与", "具备", "熟悉", "了解")) and len(value) > 8:
+            continue
+        chinese_terms.append(value)
+    keywords = _unique(english_terms + chinese_terms, 12)
+    position_keywords = _unique([title], 3) if title.strip() else []
+    education = [item for item in EDUCATION_OPTIONS if item != "不限" and item in text]
+    work_years = [item for item in WORK_YEAR_OPTIONS if item not in {"不限", "自定义"} and item in text]
+    must_have = keywords
     return normalize_draft(
         SearchConditionDraft(
             keyword_match="包含任意关键词",
             keywords=keywords,
-            position_keywords=["仿真工程师", "数字孪生工程师", "算法工程师"],
-            current_industry=["智能制造", "工业软件"],
-            work_years=["3-5年", "5-10年"],
-            education=["本科", "硕士"],
-            active_days="30天内活跃",
+            position_keywords=position_keywords,
+            work_years=work_years,
+            education=education,
+            active_days="不限",
             must_have=must_have or keywords[:5],
-            nice_to_have=nice_to_have,
-            job_status=["在职，看看新机会", "在职，急寻新工作"],
-            reasoning=["本地规则回退：根据 JD 中出现的技能和业务词生成宽搜索条件。"],
-            confidence=Confidence(keywords=0.65, position=0.45, industry=0.4, city=0.0, seniority=0.45),
+            reasoning=["本地规则回退：仅从用户填写的岗位名称和 JD 原文抽取词，不补充固定行业默认值。"],
+            confidence=Confidence(keywords=0.35 if keywords else 0.0, position=0.35 if position_keywords else 0.0, industry=0.0, city=0.0, seniority=0.0),
         )
     )
 

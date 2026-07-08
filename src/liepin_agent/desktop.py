@@ -262,54 +262,19 @@ def _join_values(value: Any) -> str:
 
 
 def _derive_route_job_fields(jd: str) -> dict[str, list[str]]:
-    keyword_candidates = [
-        "数字孪生",
-        "工业仿真",
-        "仿真建模",
-        "生产排程",
-        "排产",
-        "流程优化",
-        "Unreal Engine",
-        "Omniverse",
-        "Isaac Sim",
-        "Python",
-        "机器学习",
-        "智能调度",
-        "离散事件仿真",
-        "运筹优化",
-        "APS",
-        "MES",
+    text = str(jd or "")
+    english_terms = re.findall(r"\b[A-Za-z][A-Za-z0-9+#.\-/]{1,30}\b", text)
+    chinese_terms = [
+        match.group(0).strip()
+        for match in re.finditer(r"[\u4e00-\u9fa5A-Za-z0-9+#.\-/]{2,24}", text)
+        if match.group(0).strip() and not re.fullmatch(r"\d+", match.group(0).strip())
     ]
-    must_candidates = [
-        "数字孪生",
-        "工业仿真",
-        "生产排程",
-        "Python",
-        "机器学习",
-    ]
-    nice_candidates = [
-        "Unreal Engine",
-        "Omniverse",
-        "Isaac Sim",
-        "强化学习",
-        "生成式模型",
-        "离散事件仿真",
-        "运筹优化",
-        "APS",
-        "MES",
-        "ROS",
-        "USD",
-        "PhysX",
-    ]
-
-    def keep(items: list[str]) -> list[str]:
-        matched = [item for item in items if item.lower() in jd.lower()]
-        return matched or items[:8]
+    keywords = _unique_preserve(english_terms + chinese_terms, limit=10)
 
     return {
-        "keywords": keep(keyword_candidates)[:10],
-        "must_have": keep(must_candidates),
-        "nice_to_have": keep(nice_candidates),
+        "keywords": keywords,
+        "must_have": keywords[:6],
+        "nice_to_have": [],
         "reject_keywords": [],
     }
 
@@ -2578,7 +2543,7 @@ def build_app() -> int:
         job_current_position.setText(_join_values(conditions.get("current_position")))
         job_expected_industry.setText(_join_values(conditions.get("expected_industry")))
         job_expected_position.setText(_join_values(conditions.get("expected_position")))
-        set_combo_text(job_active_days, str(conditions.get("active_days") or "30天内活跃"))
+        set_combo_text(job_active_days, str(conditions.get("active_days") or ACTIVE_OPTIONS[0]))
         set_combo_text(job_gender, str(conditions.get("gender") or "不限"))
         set_combo_text(job_hopping, str(conditions.get("job_hopping") or JOB_HOPPING_OPTIONS[0]))
         job_languages.setText(_join_values(conditions.get("languages")))
@@ -2706,11 +2671,6 @@ def build_app() -> int:
                 "expected_city": _csv(row["city"] or ""),
                 "work_years": _csv(row["experience"] or ""),
                 "education": _csv(row["education"] or ""),
-                "recruit_type": RECRUIT_TYPE_OPTIONS[0],
-                "active_days": "30天内活跃",
-                "gender": "不限",
-                "job_hopping": JOB_HOPPING_OPTIONS[0],
-                "resume_language": RESUME_LANGUAGE_OPTIONS[0],
             }
         return conditions
 
@@ -2939,7 +2899,7 @@ def build_app() -> int:
                 query_fields[key].setText(_join_values(values.get(key)))
             set_combo_text(query_fields["recruit_type"], str(values.get("recruit_type") or RECRUIT_TYPE_OPTIONS[0]))
             set_combo_text(query_fields["work_years"], _single_work_year_value(values.get("work_years")))
-            set_combo_text(query_fields["active_days"], str(values.get("active_days") or "30天内活跃"))
+            set_combo_text(query_fields["active_days"], str(values.get("active_days") or ACTIVE_OPTIONS[0]))
             set_combo_text(query_fields["gender"], str(values.get("gender") or "不限"))
             set_combo_text(query_fields["job_hopping"], str(values.get("job_hopping") or JOB_HOPPING_OPTIONS[0]))
             set_combo_text(query_fields["resume_language"], str(values.get("resume_language") or RESUME_LANGUAGE_OPTIONS[0]))
@@ -3112,7 +3072,7 @@ def build_app() -> int:
                     "current_position": row_conditions.get("current_position") or [],
                     "expected_industry": row_conditions.get("expected_industry") or [],
                     "expected_position": row_conditions.get("expected_position") or [],
-                    "active_days": row_conditions.get("active_days") or "30天内活跃",
+                    "active_days": row_conditions.get("active_days") or ACTIVE_OPTIONS[0],
                     "gender": row_conditions.get("gender") or "不限",
                     "job_hopping": row_conditions.get("job_hopping") or JOB_HOPPING_OPTIONS[0],
                     "languages": row_conditions.get("languages") or [],
@@ -3132,7 +3092,7 @@ def build_app() -> int:
                     "dry_run": True,
                     "keyword_match": KEYWORD_MATCH_OPTIONS[0],
                     "recruit_type": RECRUIT_TYPE_OPTIONS[0],
-                    "active_days": "30天内活跃",
+                    "active_days": ACTIVE_OPTIONS[0],
                     "gender": "不限",
                     "job_hopping": JOB_HOPPING_OPTIONS[0],
                     "resume_language": RESUME_LANGUAGE_OPTIONS[0],
@@ -5107,21 +5067,8 @@ def build_app() -> int:
         if not row:
             message("请先维护岗位 JD。")
             return
-        raw_search_conditions = loads(row["search_conditions"], {}) if "search_conditions" in row.keys() else {}
-        if not isinstance(raw_search_conditions, dict) or not raw_search_conditions:
-            append_log(["岗位尚未生成猎聘搜索条件，先执行“2 维护JD条件”自动解析。"])
-            sync_route_job_from_jd(int(row["id"]))
-            row = db.fetch_one("SELECT * FROM jobs WHERE id = ?", (int(row["id"]),))
-            if not row:
-                message("岗位解析后未找到可用岗位配置。")
-                return
         search_conditions = row_search_conditions(row)
         keywords = _condition_list(search_conditions.get("keywords") or loads(row["keywords"], []))
-        if not keywords:
-            sync_route_job_from_jd(int(row["id"]))
-            row = db.fetch_one("SELECT * FROM jobs WHERE id = ?", (int(row["id"]),))
-            search_conditions = row_search_conditions(row) if row else {}
-            keywords = _condition_list(search_conditions.get("keywords") or (loads(row["keywords"], []) if row else []))
         task_age_min = None
         task_age_max = None
         if task_mode and active_task_id:

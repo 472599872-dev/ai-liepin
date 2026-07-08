@@ -17,7 +17,7 @@ def test_normalize_draft_keeps_only_allowed_fixed_options() -> None:
     assert draft.keywords == ["Python", "仿真"]
     assert draft.work_years == ["3-5年"]
     assert draft.education == ["本科"]
-    assert draft.active_days == "30天内活跃"
+    assert draft.active_days == "不限"
     assert draft.job_status == ["在职，看看新机会"]
 
 
@@ -31,8 +31,8 @@ def test_rule_based_draft_maps_to_legacy_job_fields() -> None:
     assert "工业仿真" in fields["keywords"]
     assert "Python" in fields["keywords"]
     assert "生产排程" in fields["must_have"]
-    assert fields["experience"]
-    assert fields["education"]
+    assert fields["experience"] == ""
+    assert fields["education"] == ""
 
 
 def test_coerce_qwen_alias_fields() -> None:
